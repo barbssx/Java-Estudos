@@ -6,7 +6,7 @@
 
 package devdojo.introducao;
 
-public class Aula03TiposPrimitivosExerc {
+public class Class02PrimitiveDataTypesExerc {
     public static void main(String[] args) {
         String name = "Barbara";
         String address = "Strada General Traian Moșoiu 24, Bran 507025, Romania";

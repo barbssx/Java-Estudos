@@ -1,6 +1,6 @@
 package devdojo.introducao;
 
-public class Aula04Operadores {
+public class Class04Operators {
     public static void main(String[] args) {
 
 
@@ -9,8 +9,6 @@ public class Aula04Operadores {
 
 
         // Arithmetic   +-*/
-
-
         double addition = a+b;
         double subtraction = a-b;
         double division = a/b;

@@ -1,14 +1,12 @@
 /*Primitive types are the basis of data manipulation and have fixed sizes,
  which directly influences the amount of numbers that can be stored,
   due to the amount of bits reserved in memory.*/
-//int, double, float, char, byte, short, long, bool, string
-
+//int, double, float, char, byte, short, long, bool
 
 package devdojo.introducao;
 
-public class Aula02TiposPrimitivos {
+public class Class02PrimitiveDataTypes {
     public static void main(String[] args) {
-
 
 
         int age = 18;
