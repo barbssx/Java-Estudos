@@ -3,9 +3,10 @@ package devdojo.intro.classes.methods.dominio;
 import java.util.Arrays;
 
 public class Workers {
-    public String name;
-    public int age;
-    public double[] payments;
+    private String name;
+    private int age;
+    private double[] payments;
+    private double averagePayments;
 
     public void printing() {
         System.out.println();
@@ -25,5 +26,31 @@ public class Workers {
         System.out.println(average);
     }
 
+    public String getName() {
+        return name;
+    }
 
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public int getAge() {
+        return age;
+    }
+
+    public void setAge(int age) {
+        this.age = age;
+    }
+
+    public double[] getPayments() {
+        return payments;
+    }
+
+    public void setPayments(double[] payments) {
+        this.payments = payments;
+    }
+
+    public double getAveragePayments() {
+        return averagePayments;
+    }
 }
